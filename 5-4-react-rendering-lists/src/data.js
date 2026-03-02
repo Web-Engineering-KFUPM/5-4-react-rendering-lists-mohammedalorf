@@ -10,7 +10,11 @@ export const sampleCourses = [
   {
     id: "ICS-104",
     title: "Python",
-    tasks: [],
+    tasks: [
+      { id: "t4", title: "Practice list comprehensions", dueDate: "2026-03-01", isDone: false },
+      { id: "t5", title: "Solve recursion worksheet", dueDate: "2026-02-28", isDone: false },
+      { id: "t6", title: "Review functions and scope", dueDate: "2026-02-24", isDone: true },
+    ],
   },
   {
     id: "ICS-500",
